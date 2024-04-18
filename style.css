@@ -296,7 +296,25 @@ color: green;
 
 /*RESPONSIVE*/
 
+
+
 @media (max-width: 700px) {
+  .about-us{
+    display: block;
+    width: 100%;
+    height: fit-content;
+  }
+  .about{
+    display: block;
+    width: fit-content;
+  }
+  .about-us .about .text{
+    width: 40%;
+    padding: 0 80px 0 80px;
+  }
+  .pic{
+    display: none;
+  }
   .App{
     display: block;
     width: 100%;
